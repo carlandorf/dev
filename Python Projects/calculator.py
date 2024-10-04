@@ -7,7 +7,7 @@ def subtraction(num_1, num_2):
 def multiplication(num_1, num_2):
     multi_total = num_1 * num_2
     return multi_total
-def division(float(num_1), float(num_2)):
+def division(num_1, num_2):
     div_total = num_1 / num_2
     return div_total
     
