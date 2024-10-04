@@ -1,3 +1,16 @@
+def addition(num_1, num_2):
+    add_total = num_1 + num_2
+    return add_total
+def subtraction(num_1, num_2):
+    sub_total = num_1 - num_2
+    return sub_total
+def multiplication(num_1, num_2):
+    multi_total = num_1 * num_2
+    return multi_total
+def division(float(num_1), float(num_2)):
+    div_total = num_1 / num_2
+    return div_total
+    
 prompt_1 = ("""
 _______________________________________________________________________________________________
 Welcome to the Simple Python Calculator!------------------------------------------------------- 
@@ -27,15 +40,3 @@ while calculate == True:
 
 
 
-def addition(num_1, num_2):
-    add_total = num_1 + num_2
-    return add_total
-def subtraction(num_1, num_2):
-    sub_total = num_1 - num_2
-    return sub_total
-def multiplication(num_1, num_2):
-    multi_total = num_1 * num_2
-    return multi_total
-def division(float(num_1), float(num_2)):
-    div_total = num_1 / num_2
-    return div_total
